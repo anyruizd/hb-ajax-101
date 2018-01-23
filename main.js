@@ -3,6 +3,6 @@ import DataRetriever from './components/DataRetriever.js';
 
 const URL = 'https://jsonplaceholder.typicode.com/posts/'
 
-b = new Button (node, DataRetriever.get(URL, function () {
-    console.log (this.ResponseText)
+const b = new Button (document.querySelector('.btn'), DataRetriever.get(URL, function () {
+    console.log ('DataRetriever!')
 }))

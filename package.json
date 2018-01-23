@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "private": true,
   "scripts": {
-    "start": "http-server",
+    "start": "http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,7 @@
     "url": "https://github.com/anyruizd/hb-ajax-101/issues"
   },
   "homepage": "https://github.com/anyruizd/hb-ajax-101#readme",
-  "devDependencies": {
+  "dependencies": {
     "http-server": "^0.11.1"
   }
 }
