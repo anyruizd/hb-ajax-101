@@ -5,6 +5,7 @@
   "main": "main.js",
   "private": true,
   "scripts": {
+    "build": "webpack main.js bundle.js",
     "start": "http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/anyruizd/hb-ajax-101#readme",
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
   }
 }
